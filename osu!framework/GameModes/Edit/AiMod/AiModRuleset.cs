@@ -4,7 +4,7 @@ using osu.GameplayElements.HitObjects;
 
 namespace osu.GameModes.Edit.AiMod
 {
-    public abstract class AiModRuleset
+    public abstract class AiModRuleset : MarshalByRefObject
     {
         public List<AiReport> Reports;
 

@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 using osu.GameModes.Edit.AiMod.Reports;
 using osu.GameplayElements.HitObjects;
+using System;
 
 namespace osu.GameModes.Edit.AiMod
 {
-    public class AiReport
+    public class AiReport : MarshalByRefObject
     {
         public readonly string Information;
         public readonly Severity Severity;

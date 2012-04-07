@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 11
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osu!framework", "osu!framework\osu!framework.csproj", "{61AA9909-A6FB-4DC3-91BA-AC4B9556C8A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiModTestProject", "AiModTestProject\AiModTestProject.csproj", "{C50633D8-10C4-4301-9447-92479D95020A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{61AA9909-A6FB-4DC3-91BA-AC4B9556C8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61AA9909-A6FB-4DC3-91BA-AC4B9556C8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61AA9909-A6FB-4DC3-91BA-AC4B9556C8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50633D8-10C4-4301-9447-92479D95020A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50633D8-10C4-4301-9447-92479D95020A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50633D8-10C4-4301-9447-92479D95020A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50633D8-10C4-4301-9447-92479D95020A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

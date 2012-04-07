@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace osu.GameplayElements.HitObjects
 {
-    public abstract class HitObjectBase
+    public abstract class HitObjectBase : MarshalByRefObject
     {
         /// <summary>
         /// The time at which the object is to be hit.

@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{61AA9909-A6FB-4DC3-91BA-AC4B9556C8A5}</ProjectGuid>
+    <ProjectGuid>{C50633D8-10C4-4301-9447-92479D95020A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>osu</RootNamespace>
-    <AssemblyName>osu!framework</AssemblyName>
+    <RootNamespace>AiModTestProject</RootNamespace>
+    <AssemblyName>AiModTestProject</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,21 +31,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Xna.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86">
-      <HintPath>Microsoft.Xna.Framework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameModes\Edit\AiMod\AiModRuleset.cs" />
-    <Compile Include="GameModes\Edit\AiMod\AiModRulesetAttribute.cs" />
-    <Compile Include="GameModes\Edit\AiMod\AiReport.cs" />
-    <Compile Include="GameModes\Edit\AiMod\Reports\AiReportDifficulty.cs" />
-    <Compile Include="GameModes\Edit\AiMod\Reports\AiReportOneObject.cs" />
-    <Compile Include="GameModes\Edit\AiMod\Reports\AiReportTwoObjects.cs" />
-    <Compile Include="GameplayElements\HitObjects\HitObjectBase.cs" />
+    <Compile Include="AiModTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\osu!framework\osu!framework.csproj">
+      <Project>{61AA9909-A6FB-4DC3-91BA-AC4B9556C8A5}</Project>
+      <Name>osu!framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
