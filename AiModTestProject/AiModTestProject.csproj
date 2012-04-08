@@ -43,6 +43,7 @@
     <ProjectReference Include="..\osu!framework\osu!framework.csproj">
       <Project>{61AA9909-A6FB-4DC3-91BA-AC4B9556C8A5}</Project>
       <Name>osu!framework</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
