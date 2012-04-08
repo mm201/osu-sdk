@@ -7,7 +7,7 @@ namespace osu.GameModes.Edit.AiMod
 {
     public class LoadAssemblyAttributesProxy : MarshalByRefObject
     {
-        public LoadAssemblyAttributesProxy ()
+        public LoadAssemblyAttributesProxy()
         {
 
         }
@@ -25,7 +25,7 @@ namespace osu.GameModes.Edit.AiMod
     {
         public string RulesetName { get; private set; }
         public string EntryType { get; private set; }
-        
+
         public AiModRulesetAttribute(string pluginName, string entryType)
         {
             RulesetName = pluginName;
